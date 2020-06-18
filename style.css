@@ -75,6 +75,11 @@ li.btn_navBar a{
 .item p.title {
     color: black;
     font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    height: 35px;
 }
 .info_item {
     margin-top: -15px;
