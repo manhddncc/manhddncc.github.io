@@ -68,38 +68,43 @@ li.btn_navBar a{
 	/*! border: 1px solid black; */
 }
 .item img {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
 }
 .item p.title {
-    color: black;
-    font-weight: bold;
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 80%;
-    height: 35px;
+	color: black;
+	font-weight: bold;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 80%;
+	height: 35px;
 }
 .info_item {
-    margin-top: -15px;
+	margin-top: -15px;
 }
 .item p.name_chanel, .info_item p {
-    color: #959494;
+	color: #959494;
 }
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 10px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 10px;
 }
 @media screen and (max-width: 620px) {
-  .navBarLeft {
-    width: 100%
-  }
-  .content {
-    width: 100%
-  }
-  .navBarRight {
-    width: 100%
-  }
+	.navBarLeft {
+		width: 100%
+	}
+	.content {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.navBarRight {
+		width: 100%
+	}
+	.grid-container {
+		display: inline-block;
+	}
 }
