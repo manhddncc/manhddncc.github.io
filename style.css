@@ -1,3 +1,100 @@
 body {
 	
 }
+.header {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+}
+p.title {
+	color: red;
+}
+.container {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.navBarLeft {
+	display: block;
+	float: left;
+	width: 200px;
+}
+.ul_navbar {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li.btn_navBar a{
+	background: #e5e5e5;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 10px;
+}
+.navBarRight {
+	float: right;
+	display: block;
+	width: 170px;
+	margin-top: 10px;
+	padding: 15px;
+	text-align: center;
+}
+.navBarRight h1 {
+}
+.content {
+	display: inline-block;
+	width: calc(100% - 470px);
+	margin: 0 10px;
+	/*! background: #ffff00; */
+	padding: 10px 25px;
+}
+.footer {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.color_gray {
+	background: #e5e5e5;
+}
+.galary{
+	display: inline-block;
+	width: 100%;
+}
+.item{
+	width: 100%;
+	display: block;
+	/*! border: 1px solid black; */
+}
+.item img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.item p.title {
+    color: black;
+    font-weight: bold;
+}
+.info_item {
+    margin-top: -15px;
+}
+.item p.name_chanel, .info_item p {
+    color: #959494;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+}
+@media screen and (max-width: 620px) {
+  .navBarLeft {
+    width: 100%
+  }
+  .content {
+    width: 100%
+  }
+  .navBarRight {
+    width: 100%
+  }
+}
