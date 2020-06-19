@@ -79,7 +79,8 @@ li.btn_navBar a{
 	overflow: hidden;
 	text-overflow: ellipsis;
 	width: 80%;
-	height: 35px;
+	height: 40px;
+	margin-bottom: -15px;
 }
 .info_item {
 	margin-top: -15px;
@@ -92,7 +93,22 @@ li.btn_navBar a{
 	grid-template-columns: auto auto auto auto;
 	grid-column-gap: 10px;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 1140px) {
+	.grid-container {
+		grid-template-columns: auto auto auto;
+	}
+}
+@media screen and (max-width: 1011px) {
+	.grid-container {
+		grid-template-columns: auto auto;
+	}
+}
+@media screen and (max-width: 815px) {
+	.grid-container {
+		grid-template-columns: auto;
+	}
+}
+@media screen and (max-width: 671px) {
 	.navBarLeft {
 		width: 100%
 	}
@@ -106,15 +122,5 @@ li.btn_navBar a{
 	}
 	.grid-container {
 		display: inline-block;
-	}
-}
-@media screen and (max-width: 999px) {
-	.grid-container {
-		grid-template-columns: auto auto auto;
-	}
-}
-@media screen and (max-width: 799px) {
-	.grid-container {
-		grid-template-columns: auto auto;
 	}
 }
