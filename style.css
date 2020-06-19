@@ -113,7 +113,7 @@ li.btn_navBar a{
 		grid-template-columns: auto auto auto;
 	}
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 799px) {
 	.grid-container {
 		grid-template-columns: auto auto;
 	}
