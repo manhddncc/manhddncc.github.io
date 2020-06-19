@@ -108,3 +108,13 @@ li.btn_navBar a{
 		display: inline-block;
 	}
 }
+@media screen and (max-width: 999px) {
+	.grid-container {
+		grid-template-columns: auto auto auto;
+	}
+}
+@media screen and (max-width: 999px) {
+	.grid-container {
+		grid-template-columns: auto auto;
+	}
+}
