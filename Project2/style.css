@@ -68,7 +68,7 @@ li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 	list-style: none;
 	background: transparent;
 	overflow: hidden;
-	padding-left: 7px;
+	padding-left: 2px;
 	margin: 0;
 }
 .sidebar{
@@ -87,7 +87,7 @@ li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 }
 .head a {
 	position: absolute;
-	right: 17px;
+	right: 23px;
 }
 .glyphicon.glyphicon-menu-hamburger {
 	font-size: 28px;
@@ -135,7 +135,7 @@ span.iconToggle::after{
 	content: "-";
 }
 .groupCl{
-	padding-left: 40px;
+	padding-left: 17px;
 }
 /*Content*/
 .content{
