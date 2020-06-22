@@ -75,7 +75,7 @@ li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 	display: inline-block;
 	width: 25%;
 	background: white;
-	transition: width 1s;
+	transition: width 0.5s;
 	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.45);
 	min-height: 450px;
 }
@@ -148,6 +148,7 @@ span.iconToggle::after{
 }
 .DMML, .TTCT {
 	display: inline-block;
+	margin-bottom: 25px;
 	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.45);
 }
 .DMML .body, .TTCT .body {
